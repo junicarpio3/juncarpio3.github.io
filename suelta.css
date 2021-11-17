@@ -1,0 +1,90 @@
+@font-face {
+    font-family: got;
+    src: url(Seagram.ttf);
+}
+body{
+    background-image: url(images.jfif);
+}
+.menu{
+    list-style: none;
+    padding: 0px auto;
+    background-color: rgba(58, 56, 56, 0.789);
+    width: 95%;
+    margin: 0px auto;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+li{
+    display: inline-block;
+    text-align: start;
+    padding-right: 70px;
+}
+.pe:active{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    background-color: rgb(255, 255, 255)
+}
+.pe:hover{
+    color: rgb(14, 127, 131);
+    border: white;
+    border-top: 3px rgb(238, 223, 8) solid ;
+}
+.reflexion{
+    background-color: rgba(39, 63, 160, 0.693);
+}
+h1{
+    color: rgb(102, 102, 111);
+    font-size: 45px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    font-family: got;
+    text-shadow: 40px 15px rgba(162, 162, 223, 0.357);
+
+}
+.fondo{
+    background-color: rgba(99, 68, 48, 0.878);
+}
+.reflexion{
+    border: 3px black solid;
+    background-color: rgba(77, 31, 9, 0.727);
+}
+p{
+    line-height: 34px;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    display: inline;
+}
+.ime img{
+    border: 3px black solid;
+    float: left;
+    margin-right:  10px;
+    width: 30%;
+}
+.esh img, h2{
+    float: left;
+    margin-right:  10px;
+    border-radius: 45%;
+    display:inline ;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: min-content;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.arre{
+    font-size: 20px;
+    padding: 5px;
+    text-align: end;
+    
+}   
+h3{
+    font-size: 30px;
+} 
